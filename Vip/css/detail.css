@@ -1,0 +1,122 @@
+.focus-banner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto 30px;
+  position: relative;
+  height: 360px;
+}
+.focus-banner .banner-inner {
+  position: absolute;
+  width: 9999px;
+  top: 0;
+  left: 0;
+  margin-left: -460px;
+  z-index: 1;
+}
+.focus-banner .banner-inner a {
+  display: block;
+}
+.ad {
+  width: 1020px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.ad .ad-item {
+  float: left;
+  width: 320px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.ad .ad-item a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.ad .ad-item a img {
+  display: block;
+  width: 100%;
+}
+.hot-category {
+  width: 1000px;
+  overflow: hidden;
+  position: relative;
+  margin: 20px auto 0;
+}
+.hot-category .hot-title {
+  margin: 0 auto 20px;
+  background: url(../images/hot.png) no-repeat 0 0;
+  width: 380px;
+  height: 48px;
+}
+.hot-category .hot-list {
+  width: 100%;
+}
+.hot-category .hot-list .hot-item {
+  width: 188px;
+  height: 185px;
+  float: left;
+  margin-top: -1px;
+  border-top: 1px solid #f3f3f3;
+  border-right: 1px solid #F3F3F3;
+  border-bottom: 1px solid #F3F3F3;
+}
+.hot-category .hot-list .hot-item img {
+  height: 100%;
+  width: 100%;
+}
+.hot-category .hot-list .hot-item:first-child {
+  width: 244px;
+  height: 373px;
+  border: none;
+}
+.hot-category .hot-list .hot-item:first-child img {
+  width: 100%;
+  height: 100%;
+}
+.hide-nav {
+  display: none;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background: white;
+  border-bottom: 1px solid white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+.hide-nav .hide-inner {
+  width: 1170px;
+  margin: 0 auto;
+  height: 36px;
+  position: relative;
+  padding-top: 6px;
+}
+.hide-nav .hide-inner a {
+  display: block;
+  color: #333;
+  font-size: 14px;
+  float: left;
+  margin: 0 25px;
+  padding: 5px 10px;
+  background: white;
+  height: 24px;
+  line-height: 15px;
+  border-radius: 15px;
+}
+.hide-nav .hide-inner a:first-child {
+  margin: 0 25px 0 0;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: none;
+}
+.hide-nav .hide-inner a:first-child:hover {
+  background: none;
+}
+.hide-nav .hide-inner a:first-child img {
+  height: 100%;
+}
+.hide-nav .hide-inner a:hover {
+  background: #333;
+  color: white;
+}

@@ -1,0 +1,7 @@
+/*清浏览器的默认样式*/
+body,div,header,footer,ul,li,dl,dt,dd,h1,h2,form,input,button,a,p,span,h3,h4,h5,img{ margin:0; padding:0;list-style:none;outline:none;}
+/*全局样式*/
+body{font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+color:#333; min-width:1226px; background:#f1f2f6;}
+
+

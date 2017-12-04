@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+		<title>唯品会首页</title>
+		<!-- TemplateEndEditable -->
+		<!-- TemplateBeginEditable name="EditRegion3" -->
+		<link href="../bootstrap/css/bootstrap.min.css"  rel="stylesheet" type="text/css"/>
+		<link href="../css/style.css" rel="stylesheet" type="text/css" />
+		<!-- TemplateEndEditable -->
+		<!-- TemplateBeginEditable name="head" -->
+		<!-- TemplateEndEditable -->
+	</head>
+	<body ng-app="App">
+		<!--header-->
+		<header>
+			<!--top-nav-->
+			<div class="top-nav">
+				<div class="wrap">
+					<!--sel-area-->
+					<div class="sel-area">
+						<div class="sel-area-change">
+							<span class="sel-area-btn">河北</span><i class="glyphicon glyphicon-chevron-down"></i>
+						</div>
+						<div class="sel-area-box">
+							<i></i>
+							<h4>请选择所在的收获地点</h4>
+							<ul>
+								<li>A<span>安徽</span><span>澳门</span></li>
+								<li>B<span>北京</span></li>
+								<li>C<span>重庆</span></li>
+								<li>F<span>福建</span></li>
+								<li>G<span>广东</span><span>广西</span><span>归中央</span><span>甘肃</span></li>
+								<li>H<span class="current">河北</span><span>黑龙江</span><span>海南</span><span>湖北</span><span>湖南</span></li>
+								<li>J<span>江苏</span><span>江西</span><span>吉林</span></li>
+								<li>L<span>辽宁</span></li>
+								<li>N<span>内蒙古</span><span>宁夏</span></li>
+								<li>Q<span>青海</span></li>
+								<li>S<span>上海</span><span>山西</span><span>山东</span><span>四川</span><span>陕西</span></li>
+								<li>T<span>台湾</span><span>天津</span></li>
+								<li>X<span>新疆</span><span>香港</span><span>西藏</span></li>
+								<li>Y<span>广东</span></li>
+								<li>Z<span>浙江</span></li>
+							</ul>
+						</div>
+					</div>
+					<!--top-nav-tool-->
+					<ul class="top-nav-tool">
+						<li class="wp-user wp-current">
+							<div class="wp-top">
+								<a href="#">请登录</a>
+								<span>/</span>
+							</div>
+							<div class="wp-bottom">
+								<i></i>
+								<p><span></span><a href="#" style="display: inline-block;">你好，请登录</a></p>
+								<a href="#">我的收藏</a>
+								<a href="#">我的订单</a>
+								<a href="#">零钱</a>
+								<a href="#">我的优惠券</a>
+								<a href="#">我的唯品币</a>
+								<a href="#">唯品金融</a>
+							</div>
+						</li>
+						<li class="wp-register">
+							<div class="wp-top">
+								<a href="#">注册</a>
+								<span>/</span>
+							</div>
+						</li>
+						<li class="wp-sigin">
+							<div class="wp-top">
+								<a href="#"><i class="top-sigin"><img src="../images/header_.gif"></i>签到有礼</a>
+								<span>/</span>
+							</div>
+						</li>
+						<li class="wp-order">
+							<div class="wp-top">
+								<a href="#">我的订单</a>
+								<span>/</span>
+							</div>
+						</li>
+						<li class="wp-nav wp-current">
+							<div class="wp-top">
+								<a href="#">我的特卖<i class="glyphicon glyphicon-chevron-down"></i></a>
+								<span>/</span>
+							</div>
+							<div class="wp-bottom">
+								<i style="width: 94px;"></i>
+								<a href="#">品牌收藏<span>(0)</span></a>
+								<a href="#">商品收藏<span>(0)</span></a>
+								<a href="#">我的足记<span>(0)</span></a>
+							</div>
+						</li>
+						<li class="wp-member wp-current">
+							<div class="wp-top">
+								<a href="#">会员俱乐部<i class="glyphicon glyphicon-chevron-down"></i></a>
+								<span>/</span>
+							</div>
+							<div class="wp-bottom">
+								<i style="width: 106px;"></i>
+								<a href="#">俱乐部会员</a>
+								<a href="#">唯品币兑换</a>
+								<a href="#">免费抽大奖</a>
+							</div>
+						</li>
+						<li class="wp-service wp-current">
+							<div class="wp-top">
+								<a href="#">客服服务<i class="glyphicon glyphicon-chevron-down"></i></a>
+								<span>/</span>
+							</div>
+							<div class="wp-bottom">
+								<i style="width: 94px;"></i>
+								<a href="#">客户服务</a>
+								<a href="#">联系客服</a>
+								<a href="#">帮助中心</a>
+								<a href="#">客服中心</a>
+							</div>
+						</li>
+						<li class="wp-phone wp-current">
+							<div class="wp-top">
+								<a href="#"><em></em>手机版</a>
+								<span>/</span>
+							</div>
+							<div class="wp-bottom">
+								<i style="width: 85px;"></i>
+								<img src="../images/weixin.jpg" width="161px" height="161px"/>
+								<h5>随时逛，及时抢</h5>
+							</div>
+						</li>
+						<li class="wp-more wp-current">
+							<div class="wp-top">
+								<a href="#">更多<i class="glyphicon glyphicon-chevron-down"></i></a>
+							</div>
+							<div class="wp-bottom">
+								<i style="width: 53px;"></i>
+								<h5>合作专区</h5>
+								<p>
+									<a>联名卡申请</a>
+									<a>唯品卡</a>
+									<a>支付专区</a>
+								</p>
+								<h6></h6>
+								<h5>关于我们</h5>
+								<p>
+									<a>Sell on vip</a>
+									<a>品牌招商</a>
+									<a>官方微博</a>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--head-logo-->
+			<!-- TemplateBeginEditable name="EditRegion4" -->
+			<div class="head-logo">
+			  <div class="wrap">
+			    <h1><a href="index.html">唯品会</a></h1>
+			    <div class="service"> <a href="#" class="service-one"></a> <a href="#" class="service-two"></a> <a href="#" class="service-three"></a> </div>
+			    <div class="cart"> <a href="#"> <b></b>购物车<span>0</span> </a> </div>
+		      </div>
+		    </div>
+			<!--main-nav-->
+			<div class="main-nav">
+				<div class="wrap">
+					<ul class="nav">
+						<li><a href="#" class="current">首页</a></li>
+						<li><a href="../list.html">女装</a></li>
+						<li><a href="../detail.html">美妆</a></li>
+						<li><a href="#">国际</a></li>
+						<li><a href="#">男士</a></li>
+						<li><a href="#">居家</a></li>
+						<li><a href="#">鞋包</a></li>
+						<li><a href="#">运动</a></li>
+						<li><a href="#">生活</a></li>
+						<li class="nav-more">
+							<a href="#">更多<i class="glyphicon glyphicon-chevron-down"></i></a>
+							<div>
+								<div>
+									<a href="#"><img src="../images/nav-more1.png"></a>
+									<span></span>
+								</div>
+								<div>
+									<a href="#"><img src="../images/nav-more2.png"></a>
+									<span></span>
+								</div>
+								<div style="margin-right: 0;">
+									<a href="#"><img src="../images/nav-more3.png"></a>
+									<span></span>
+								</div>
+								<div style="margin-top: 15px;">
+									<a href="#"><img src="../images/nav-more4.png"></a>
+									<span></span>
+								</div>
+							</div>
+						</li>
+						<li class="nav-comingsoon"><a href="#"><img src="../images/fenlei.png" />预告</a></li>
+						<li class="nav-cateory"><a href="#"><img src="../images/yugao.png" />分类</a></li>
+					</ul>
+				</div>
+			</div>
+            <!-- TemplateEndEditable -->
+		</header>
+		<!--content--><!-- TemplateBeginEditable name="EditRegion5" -->
+		<div class="content"></div>
+		<!-- TemplateEndEditable --><!--index-cms-->
+		<!--footer-->
+		<footer id="footer">
+			<div class="wrap">
+				<!--foot-top-->
+				<ul class="foot-top">
+					<li><i>中国第三</i></li>
+					<li><i>全球直采</i></li>
+					<li><i>一手资源</i></li>
+					<li><i>入仓全检</i></li>
+					<li><i>自营物流</i></li>
+					<li><i>线下验真</i></li>
+					<li><i>假货必赔</i></li>
+					<li><i>任意退货</i></li>
+					<li><i>万片信赖</i></li>
+					<li><i>权威荣誉</i></li>
+				</ul>
+				<!--foot-center-->
+				<div class="foot-center">
+					<dl>
+						<dt>服务保障</dt>
+						<dd><a href="#">正品保证</a></dd>
+						<dd><a href="#">7天无理由放心退</a></dd>
+						<dd><a href="#">退货返运费</a></dd>
+						<dd><a href="#">7*15小时客服服务</a></dd>
+					</dl>
+					<dl>
+						<dt>购物指南</dt>
+						<dd><a href="#">购物演示</a></dd>
+						<dd><a href="#">订单操作</a></dd>
+						<dd><a href="#">会员注册</a></dd>
+						<dd><a href="#">账户管理</a></dd>
+						<dd><a href="#">收货样品</a></dd>
+						<dd><a href="#">会员等级</a></dd>
+					</dl>
+					<dl>
+						<dt>支付方式</dt>
+						<dd><a href="#">快捷支付</a></dd>
+						<dd><a href="#">23家主流网银支付</a></dd>
+						<dd><a href="#">货到付款</a></dd>
+						<dd><a href="#">支付宝、银联等支付</a></dd>
+						<dd><a href="#">信用卡支付</a></dd>
+						<dd><a href="#">零钱支付</a></dd>
+					</dl>
+					<dl>
+						<dt>配送方式</dt>
+						<dd><a href="#">全场满288免运费</a></dd>
+						<dd><a href="#">配送范围及运费</a></dd>
+						<dd><a href="#">验货与签收</a></dd>
+					</dl>
+					<dl>
+						<dt>售后服务</dt>
+						<dd><a href="#">退货政策</a></dd>
+						<dd><a href="#">退货流程</a></dd>
+						<dd><a href="#">退款方式和实效</a></dd>
+					</dl>
+					<dl>
+						<dt>唯品会APP二维码</dt>
+						<img src="../images/erwinma.png"/>
+						<dd>下载唯品会移动APP</dd>
+					</dl>
+				</div>
+				<!--foot-bottom-->
+				<div class="foot-bottom">
+					<p class="foot-links">
+						<a href="#">关于我们</a>
+						<a href="#">About us</a>
+						<a href="#">Investor Relations</a>
+						<a href="#">媒体报道</a>
+						<a href="#">品牌招商</a>
+						<a href="#">隐私条款</a>
+						<a href="#">唯品诚聘</a>
+						<a href="#">365爱心基金</a>
+						<a href="#">唯品卡</a>
+						<a href="#">联系我们</a>
+					</p>
+					<p class="foot-info">
+						Copyright © 2008-2017 vip.com，All Rights Reserved  使用本网站即表示接受<a href="#">唯品会用户协议</a>。版权所有<a href="#">广州唯品会信息科技有限公司</a></br> 
+                        <a href="#">粤公网安备 44010302111111号 </a><a href="#">粤ICP备08114786号</a><a href="#">ICP经营许可证：粤B2-20080329</a><a href="#"> 网络文化经营许可证：粤网文〔2015〕1528-229</a><br />
+                        <a href="#">自营主体经营证照</a><a href="#">风险监测信息</a><a href="#">互联网药品交易服务资格证（粤C20140002）</a>
+				</div>
+			</div>
+		</footer>
+		<!--footer-ft-->
+		<div class="footer-ft">
+			<a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+		</div>
+		
+	</body>
+</html>
+<script src="../js/jquery-1.11.1.js" type="text/javascript"></script>
+<script src="../bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../js/angular.min.js"></script>
+<script src="../js/index.js" type="text/javascript"></script>
+<script src="../js/angular.js"></script>
