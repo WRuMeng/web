@@ -231,7 +231,7 @@ footer{ width:938px; margin:0 auto; overflow:hidden; padding:35px 0 45px; text-a
 .content_r_head{ height:71px; background:url(../images/eventsspr.png) repeat-x; width:100%; position:relative;}
 .content_r_head h2{ width:208px; background:url(../images/newspr.png) no-repeat 0 100%; position:absolute; top:50%; left:25px; margin:-15px 0 0 ; text-indent:-9999px;}
 .content_bd{ padding:0 40px; position:relative;}
-.content_bd .line{ width:110px; height:2px; position:absolute; background:#2fc3a2; top:60px; left:260px;}
+.content_bd_hd .line{ width:110px; height:2px; position:absolute; background:#2fc3a2; top:60px; left:260px;}
 .content_bd_hd{overflow:hidden; border-bottom:1px solid #e5eae9; margin-bottom:20px;}
 .content_bd_hd a{ display:block; margin:20px 0; padding:0 40px;float:left; color:#3c3c3c; border-right:1px solid #e5eae9; font-size:14px;}
 .content_bd_hd a.current{ color:#2fc3a2;}
@@ -244,4 +244,4 @@ footer{ width:938px; margin:0 auto; overflow:hidden; padding:35px 0 45px; text-a
 .content_bd_bd .cltit:hover{ color:#dd931f;}
 .content_bd_bd .cltime{float:right; color:#797979;}
 .cpages{height:30px; line-height:30px; text-align:center; margin-top:40px; padding-bottom:30px;}
-.cpages a{ color:black;}
+.cpages a{ color:black;display: inline-block; margin: 0 10px;}
